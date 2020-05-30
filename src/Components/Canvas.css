@@ -1,9 +1,0 @@
-.arrayBar {
-    background-color: rgb(63, 218, 202);
-    border: 1px solid rgb(46, 155, 144);
-    display: inline-block;
-}
-
-.currentArrayBar {
-    background-color: rgb(245, 44, 17);
-}
