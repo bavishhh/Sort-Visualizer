@@ -1,13 +1,14 @@
-class BubbleSort {
+import Sort from './Sort';
+
+class BubbleSort extends Sort {
     constructor(array) {
-        this.array = array;
-        this.n = array.length;
+        super(array);
         this.i = 0;
         this.j = 0;
-        this.sorted = false;
     }
 
     reset() {
+        this.sorted = false;
         this.i = 0;
         this.j = -1;
         return [-1, -1];

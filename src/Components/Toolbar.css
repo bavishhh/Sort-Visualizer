@@ -1,0 +1,82 @@
+.toolbar {
+    background-color: rgb(42, 42, 42);
+    color: rgb(212, 212, 212);
+    padding-top: 20px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    z-index: 10;
+}
+
+span {
+    display: table-cell;
+}
+
+button {
+    outline: None;
+    border: None;
+    padding: 5px 10px;
+    margin: 2px 5px;;
+    background-color: rgb(42, 42, 42);
+    color: rgb(185, 185, 185);
+}
+
+button:hover:enabled {
+    cursor: pointer;
+    color: white;
+}
+
+button:disabled {
+    background-color: rgb(42, 42, 42);
+    color: rgb(134, 134, 134);
+}
+
+.generateArrayButton {
+    color: rgb(212, 212, 212);
+    background-color: rgb(58, 58, 58);
+}
+
+.generateArrayButton:hover:enabled {
+    color: white;
+    background-color: rgb(92, 92, 92);
+}
+
+.controlLabel {
+    font-size: 14px;
+    color: rgb(150, 150, 150);
+}
+
+.selectedAlgoButton {
+    color: white;
+    border-bottom: 2px solid rgb(39, 77, 245);
+}
+
+.selectedAlgoButton:hover:enabled {
+    color: white;
+}
+
+.sortButton {
+    color: rgb(212, 212, 212);
+    background-color: rgb(58, 58, 58);
+    padding: 5px 20px;
+    margin: 2px 5px;
+}
+
+.sortButton:hover {
+    color: white;
+    background-color: rgb(92, 92, 92);
+}
+
+input[type="range"] {
+    -webkit-appearance: none;
+    height: 12px;
+    background-color: #3d3d3d;
+    outline: none;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    height: 12px;
+    width: 10px;
+    background: #949494;
+    cursor: pointer;
+}
